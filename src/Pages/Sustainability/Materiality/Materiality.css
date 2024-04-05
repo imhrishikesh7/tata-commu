@@ -1,0 +1,53 @@
+.materiality-sec1 .materiality-sec1-p {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.materiality-sec1 .materiality-sec1-p .purple-highlight-p {
+    color: #55349D;
+    font-size: 1.2rem;
+}
+
+.materiality-sec1 .materiality-sec1-p p {
+    width: 48%;
+    text-align: left;
+}
+
+.sec2-row {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 3, 27, 0.03);
+    justify-content: center;
+
+}
+
+.m-row-card {
+    padding: 2%;
+    width: 18%;
+    /* border: 2px solid; */
+}
+.m-row-card p{
+    margin-top: 50px;
+    font-size: .7rem;
+    /* font-weight: 500; */
+    color: #6740BA;
+    /* border: 1px solid; */
+}
+
+.m-row-card h4 {
+    letter-spacing: 1cqmin;
+    margin-bottom: 10%;
+
+}
+
+.m-row-card img {
+    width: 30%;
+    height: 20%;
+}
+
+.m-row-arrow-line {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}

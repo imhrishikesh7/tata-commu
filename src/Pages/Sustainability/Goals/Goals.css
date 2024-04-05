@@ -1,0 +1,88 @@
+.goals-container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.little-cards {
+    width: 190px;
+    font-size: 14px;
+
+}
+
+.little-card {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 1cqmin;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 6px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 0 20px 20px 0;
+    background-color: #D5D5D5;
+}
+
+.little-card.active {
+    background-color: #7A63AB;
+    color: white;
+    width: auto; 
+}
+
+.main-card {
+    flex: 1;
+    /* padding: 10px; */
+    border-radius: 20px 0 0 2lh;
+    background-color: #F1F1F1;
+    padding: 10px 20px;
+    height: 370px;
+}
+
+.goals-table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 80%;
+}
+
+.goals-table th {
+    /* padding: 8px; */
+    border-bottom: 1px solid grey;
+    color: #7A63AB;
+
+}
+.goals-table-body{
+    height: 100%;
+
+}
+.goals-data{
+    font-size: 12px;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+
+}
+
+.status-bar{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    width: 80px;
+    height: fit-content;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+.main-card-h2{
+    color: #123C61;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1cqmin;
+} 
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.9s ease-in-out;
+}

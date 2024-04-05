@@ -1,0 +1,85 @@
+
+.stretegy-sec1{
+    display: flex;
+    text-align: justify;
+}
+
+.head-wrapper{
+    text-align: left;
+}
+.heading-sec1{
+    color: #7A63AB;
+    text-align: left;
+    margin: 0;
+}
+.stretegy-sec1 p{
+    width: 49%;
+    margin: 20px;
+    font-size: 17px;
+}
+.text-green{
+    color: #7B8422;
+}
+
+.strategy-sec2{
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    height: 330px;
+    color: #7A63AB;
+}
+.icon-bg{
+    width: 25%;
+    height: 300px;
+    justify-items: center;
+    text-align: center;
+}
+.icon-bg img{
+    width: 90px; 
+}
+.table-sec2{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    justify-self: last baseline;
+}
+.icon-bg  .svg-group{
+    /* position: absolute; */
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+.icon-bg  .svg-bar{
+ width: 250px;
+ height: 20px;
+ display: block;
+ margin: 20px auto;
+}
+.icon-bg  .svg-ellipse{
+    position: absolute;
+    width: 20px;
+    justify-content: center;
+    margin: 0px -10px;
+    top: 125px;
+}
+.card-bottom{
+    position: relative;
+    background-color: #DED8EA;
+    width: 95%;
+    margin: 0 auto;
+    height: 120px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+
+.card-bottom p{
+    margin:  auto;
+    display: inline-block;
+}
+.svg-polygon{
+    position: absolute;
+    top: 0;
+}

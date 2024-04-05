@@ -1,0 +1,39 @@
+.head-bar{
+    margin: 50px 0;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    height: 130px;
+    text-align: left;
+    padding: 12px;
+    display: flex;
+    
+}
+.head-bar .hb-2{
+    width: 800px;
+    margin: auto 40px;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+}
+.head-bar .hb-2 h1{
+    margin: 0;
+    letter-spacing: 1cqmin;
+}
+.head-bar .head-icon img{
+    position: absolute;
+    left: calc(50% - 30%);
+    top: calc(50% - 30%);
+    width: 70px;
+    height: 70px;
+}
+.head-bar .head-icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    object-fit: contain;
+    background-color: #A285DC;
+    border-radius: 50%;
+    padding: 12px;
+}

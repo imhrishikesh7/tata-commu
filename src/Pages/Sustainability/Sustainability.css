@@ -1,0 +1,37 @@
+
+.container-sustainability{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.card {
+    width: 170px;
+    height: 300px;
+    padding: 13px;
+    border-radius: 16px;
+    background-color: #9E92B4;
+    color: #ffffff;
+    font-size: small;
+    transition: all 0.3s ease-out;
+}
+.card:hover{
+    background-color: #7A63AB;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+.card .globe{
+    width: 100px;
+    margin: 20px 0;
+}
+.card .dotted-line{
+    font-size: medium;
+    color: #fff;
+}
+.card a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1ch;
+    text-decoration: none;
+    cursor: pointer;
+}

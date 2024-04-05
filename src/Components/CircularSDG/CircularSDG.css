@@ -1,0 +1,56 @@
+.sdg-wheel {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.section.active {
+    background-color: #007bff; /* Change color for active section */
+}
+
+.arrow-pointer {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000; /* Change color for arrow pointer */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.data-panel {
+    /* position: absolute; */
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff; /* Change color for data panel */
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

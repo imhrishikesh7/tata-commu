@@ -1,0 +1,90 @@
+/* .commitments{
+    marg
+} */
+.bg-passthrough{
+    width: 100%;
+    margin: auto;
+}
+.passthrough-wrapper{
+    position: relative;
+    margin: 30px auto ;
+    height: fit-content;
+}
+.cmmt1{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+}
+.cmmt1 .banner-commitments{
+    width: 45%;
+}
+.cmmt1-content{
+    width: 45%;
+    text-align: justify;
+}
+.cmmt1-content h1{
+    margin: 0;
+    font-size: 32px;
+    width: 100%;
+    color: #A285DC;
+}
+.cmmt1-content p{
+    /* width: 80%; */
+    font-size: 20px;
+    line-height: 30px;
+}
+.cmmt2 .table {
+    margin: 20px auto;
+    width: 100%;
+}
+.cmmt2 .table .table-head-wrapper h3{
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+    letter-spacing: 1cqmin;
+    margin: 0;
+    padding: 15px 0;
+    border-radius: 20px 20px 0  0 ;
+    cursor: pointer;
+}
+.data-row-wrapper{
+    background-color: #F1F1F1;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 0 0 20px 20px;
+}
+.data-row{
+    width: 240px;
+    height: 140px;
+    margin: 0;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+.data-row h3,
+.data-row p {
+    transition: color 0.9s ease-in-out;
+}
+.data-row:not(:last-child){
+    border-right: 1px solid #D5D5D5;
+}
+.cmmt2 .table .table-head-wrapper .table-head-wrapper2{
+    justify-content: center;
+    margin: auto;
+    
+}
+.active-heading{
+    background-color: #7A63AB;
+    color: #fff;
+}
+.inactive-heading{
+    background-color: #D5D5D5;
+    color: #7A63AB;
+}
+.first-child-color{
+    color: #7A63AB;
+}
+.cmmt2 .table .table-head-wrapper h3 {
+    transition: background-color 0.3s ease-in-out;
+}

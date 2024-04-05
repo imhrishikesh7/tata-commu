@@ -1,0 +1,88 @@
+const data = [
+        {
+            title: 'CUSTOMERS',
+            tableData: [
+                {
+                    value: ['Responsive Business Conduct', 'Business Ethics', 'Data privacy and security', 'Effective after sales services', 'Digital technology investments and capabilities'],
+                    subtitle1: 'Needs-Based:',
+                    value1: 'Tailored customer engagement, feedback sessions, CXO engagement, bid review process, input from sales and account manager, gartener peer reviews and email communications.',
+                    subtitle2: 'Ongoing',
+                    value2: 'Website updates and social media engagement',
+                    subtitle3: 'Yearly',
+                    value3: 'Customer satisfaction surveys, customer outreach',
+                },
+            ]
+        },
+        {
+            title: 'EMPLOYEES',
+            tableData: [
+                {
+                    value: ['Ensuring a secure work environment', 'Embracing divercity and inclusion', 'Opportunities for skill development and training', 'Implementing employee-centric practices', 'Opportunities for career growth and development'],
+                    subtitle1: 'Needs-Based & Ongoing:',
+                    value1: 'Routine team gatherings, Training sessions, webinars and workshops, Town hall assemblies, Internal dialogues and gatherings, Surveys,  Awards an Acknowledgement initiatives, Safety training sessions',
+                    subtitle2: 'Quarterly',
+                    value2: 'Coaching evaluations',
+                },
+            ]
+        },
+        {
+            title: 'INVESTORS AND STAKEHOLDERS',
+            tableData: [
+                {
+                    value: ['Growth and expansion strategy', 'Robust financial position', 'Ethical business practices', 'Transparent ', 'Compliance and governance adherance'],
+                    subtitle1: 'Needs-Based:',
+                    value1: 'Press releases, conferences, email updates, facility visits, in-person meetings, investor gatherings, non-deal roadshows, conference calls',
+                    subtitle2: 'Quarterly',
+                    value2: 'Financial reports, earnings, discussions, exchange notifications and press briefings',
+                    subtitle3: 'Yearly',
+                    value3: 'Annual General Meeting and release of the Annual Report.',
+                },
+            ]
+        },
+        {
+            title: 'REGULATIONS',
+            tableData: [
+                {
+                    value: ['Legal compliace', 'Governance excellance', 'Ethical behaviour', 'CSR investment', 'Transparent disclosure', 'Alignment with global agendas'],
+                    subtitle1: 'Needs-Based & Ongoing:',
+                    value1: 'Ensuring compliance with statutary obligations throuth fillings and meetings, establishing new partnerships, addressing HR and labor compliance matters, conducting meetings with senior managemnt and the PR team',
+                },
+            ]
+        },
+        {
+            title: 'MEDIA AND ANALYSTS',
+            tableData: [
+                {
+                    value: ['Company updates and developments', 'Strategic direction, milestones and industry acknowledgments', 'Compliance with regulations and governance considerations', 'Public disclosures and transparent reporting practices', 'Future plans, expansion strategies and new poduct/service introductions'],
+                    subtitle1: 'Needs-Based & Ongoing:',
+                    value1: 'Press releases, conferences, media interviews, email advisories, exchange notifications, media oranalysts events, analysts breifings, relationship buildings meetings, website and social media updates',
+                    subtitle2: 'Quarterly:',
+                    value2: 'Release of financial statements and earnings conference call',
+                    subtitle3: 'Yearly:',
+                    value3: 'Annual General Meeting and publication of the Annual Report',
+                },
+            ]
+        },
+        {
+            title: 'SUPPLIERS',
+            tableData: [
+                {
+                    value: ['Etical practices for sustained partnerships', 'Timely delivery, payments and financial transactions', 'Long-term contracts', 'Ensuring competitive pricing', 'Adherance to human rights'],
+                    subtitle1: 'Needs-Based:',
+                    value1: 'Operational review meetings, workshops/events and selection processes',
+                    subtitle2: 'Ongoing',
+                    value2: 'Regular meetings, ongoing assesments, feedback surveys',
+                },
+            ]
+        },
+        {
+            title: `COMMUNITIES AND NGO'S`,
+            tableData: [
+                {
+                    value: ['Generating livelihood opportunities', 'Enhancing education, healthcare and hygiene', 'Community engagement through volunteering', 'Facilitating skill enhancement'],
+                    subtitle1: 'Needs-Based & Ongoing:',
+                    value1: 'Meetings between CSR team and partners, volunteer initiatives, engagement activities such as DRIVE Week, baseline assesments and benchmark studies',
+                },
+            ]
+        },
+    ];
